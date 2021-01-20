@@ -1,0 +1,12 @@
+x=[1,2,7,9,8,4,6,12,56,78]
+print(x)
+y=sorted(x)
+print(y)
+y.sort(reverse=True)
+print(y)
+print(len(y))
+print(max(y))
+print(min(y))
+print(x+[111])
+x[1]=22
+print(x)
